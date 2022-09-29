@@ -1,0 +1,123 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+div#all {
+    background: linear-gradient(45deg, hotpink, lightcoral, tomato);
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 35vw;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+    transition: 500ms ease-in;
+    -webkit-transition: 500ms ease-out;
+    -moz-transition: 500ms ease-in;
+    -ms-transition: 500ms ease-in;
+    -o-transition: 500ms ease-in;
+    justify-content: space-between
+}
+
+div#card:hover {
+    transition: 400ms ease-in;
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+div#header {
+    margin-bottom: 16vh
+}
+
+img#img-banner {
+    width: 35vw;
+    height: 30vh;
+    border-radius: 1vw 1vw 0 0;
+    -webkit-border-radius: 1vw 1vw 0 0;
+    -moz-border-radius: 1vw 1vw 0 0;
+    -ms-border-radius: 1vw 1vw 0 0;
+    -o-border-radius: 1vw 1vw 0 0;
+    border-bottom: ridge 0.5vh violet;
+    filter: blur(0.06vw);
+    -webkit-filter: blur(0.06vw);
+    position: absolute;
+}
+
+div#logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 16vh;
+}
+
+img#logo {
+    width: 11vw;
+    height: 20vh;
+    border: solid 0.2vw violet;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    filter: contrast(110%) saturate(130%);
+    -webkit-filter: contrast(110%) saturate(130%);
+}
+
+div#info {
+    text-align: center;
+    position: relative;
+    bottom: 6vh;
+}
+
+div#info>p {
+    margin: 3vh 4vw 7vh 4vw;
+    font-size: 2vw;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+a#button {
+    text-decoration: none;
+    border: solid 0.3vw violet;
+    border-radius: 1.5vw;
+    padding: 0.8vh 1.5vw;
+    -webkit-border-radius: 1.5vw;
+    -moz-border-radius: 1.5vw;
+    -ms-border-radius: 1.5vw;
+    -o-border-radius: 1.5vw;
+    font-size: 1.8vw;
+    color: black;
+}
+
+a#button:hover {
+    padding: 1.3vh 2vw;
+    box-shadow: inset 0 0 1.5vw 0.1vw rgba(0, 0, 0, 0.585);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1vh;
+    text-align: center;
+    border-top: solid 0.1vh rgba(40, 35, 35, 0.349);
+    padding: 3vh 0 0 0;
+}
