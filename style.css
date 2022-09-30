@@ -218,11 +218,11 @@
         font-weight: 500;
     }
     a#button {
-        width: 19vmax;
+        width: 20vmax;
         text-decoration: none;
         border: solid 0.8vmax violet;
         border-radius: 5vmax;
-        padding: 1.2vmax 3vmax;
+        padding: 1vmax 2vmax;
         -webkit-border-radius: 5vmax;
         -moz-border-radius: 5vmax;
         -ms-border-radius: 5vmax;
