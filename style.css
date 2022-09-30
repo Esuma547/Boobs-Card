@@ -168,7 +168,7 @@
         -o-transition: 400ms ease-in;
     }
     img#img-banner {
-        width: 60vmax;
+        width: 45vmax;
         height: 22vmax;
         border-radius: 2.5vmax 2.5vmax 0 0;
         -webkit-border-radius: 2.5vmax 2.5vmax 0 0;
